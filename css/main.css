@@ -47,10 +47,7 @@ h6 {
 
 .container {
     max-width: 1170px;
-    top: 0;
-    bottom: 0;
-    left: auto;
-    right: auto;
+    margin: 0 auto;
 }
 
 section {
@@ -83,25 +80,27 @@ section {
 
 .btn {
     cursor: pointer;
-    padding: 6px 6px 12px 12px;
+    border: 0;
+    padding: 6px 12px;
     border-radius: 3px;
     line-height: 1.4;
 }
 
 .btn-default {
-    text-decoration-color: white;
+    color: white;
     background-color: #faa541;
 }
 
 .btn-primary {
-    text-decoration-color: white;
+    color: white;
     background-color: #364147;
 }
 
 .form-control {
     display: block;
-    padding: 6px 6px 12px 12px;
-    border: solid 1px #a0a0a0;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;
+    color: #8598a2;
     line-height: 1.4;
 }
 
