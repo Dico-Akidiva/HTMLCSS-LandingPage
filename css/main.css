@@ -124,8 +124,7 @@ section {
 }
 
 .brand {
-    width: 170px;
-    height: 85px;
+    size: 170px 85px;
     margin-left: -15px;
     margin-right: 60px;
 }
@@ -136,8 +135,7 @@ section {
 }
 
 .search-box {
-    width: 330px;
-    height: 30px;
+    size: 330px 30px;
     padding: 6px 12px;
     border: 1px solid #a0a0a0;
 }
@@ -145,8 +143,7 @@ section {
 .search-button {
     background-color: #a0a0a0;
     color: #FFFFFF;
-    width: 100px;
-    height: 30px;
+    size: 100px 30px;
     border: 0;
     padding: 0;
 }
@@ -176,12 +173,11 @@ section {
 }
 
 .account a {
-    font-size 14px;
+    font-size: 14px;
 }
 
 .profile-pic {
-    width: 60px;
-    height: 60px;
+    size: 60 60;
 }
 
 .profile-pic img {
